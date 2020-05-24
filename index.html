@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>SCRUM</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="lib/css/monokai.css">
+		<link rel="stylesheet" href="css/theme/league.css" id="theme">		
+		
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				
+				<section data-background="/img/scrum.png" data-background-size="500px" data-background-position="center 5%" data-background-color="#11bf74">
+					<h1>What is This ?</h1>
+				</section>
+
+				<section data-background="/img/agile-manifesto-values.jpg" data-background-size="1000px"></section>
+				<section data-background="/img/scrum-process.jpg" data-background-size="1000px"></section>
+				<section>
+					<section data-background-color="#bf11bf">
+						<h2>Scrum Roles</h2>
+						<p>A scrum team needs three specific roles: product owner, scrum master, and the development team. </p>
+					</section>
+					<section data-background="/img/product-owner.png" data-background-size="400px" data-background-position="10% 30%" data-background-color="#5711bf">
+						<h3>1. Product owner</h3>
+						<p>This is the person responsible for defining the features that are needed in the product. </p>
+					</section>
+					<section data-background="/img/scrum-master.png" data-background-size="1000px" data-background-position="center" data-background-color="#bfbc11">
+						<img class="fragment fade-out" src="/img/scrum-master2.png" alt="Scrum Master" width="1000px">
+						
+						</section>
+					<section data-background-color="#bf1111">
+						<img src="/img/development-team.png" width="100%" alt="Development Team">
+						
+					</section>
+				</section>
+
+				<section>
+					<section data-background-color="#5711bf">
+						<h1>Scrum Artifacts</h1>
+					</section>
+					<section data-background-color="#bf11bf">
+						<h3>1. Product backlog</h3> 
+						<img src="/img/product-backlog.png" alt="Product Backlog">
+					</section>
+					<section data-background-color="#bf11bf">
+						<h3>User Story</h3> 
+						<img src="/img/user-stories.png" alt="User Story">
+					</section>
+					<section data-background-color="#bf1111">
+						<h3>2. Sprint backlog</h3>
+						<img src="/img/board.jpg" alt="Spront Backlog">
+					</section>
+					<section data-background-color="#bfbc11">
+						<h3>3. Burndown charts</h3>
+						<img src="/img/burn-down.jpg" alt="Burnsown chart">
+					</section>
+				</section>
+				 
+				<section>
+					<section data-background-color="#bf1111">
+						<img src="/img/events.png" alt="">
+						<h1>Scrum Ceremonies or Events</h1>
+					</section>
+					<section data-background-color="#bfbc11">
+						<h3>1. Sprint planning</h3>
+						<img src="/img/planning.jpeg" alt="Planning">
+					</section>
+					<section data-background-color="#5711bf">
+						<h3>2. Daily Meeting</h3>
+						<img src="/img/scrum-process2.png" alt="Daily meeting" width= "80%">
+					</section>
+					<section data-background-color="#bf11bf">
+						<h3>3. The Sprint Review and Retrospective</h3>
+						<img src="/img/retrospective.jpg" alt="Retrospective" width="80%">
+					</section>
+				</section>
+
+				<section>
+					<h3>Zombie Scrum</h3>
+					<img src="/img/zombie-scrum.png" alt="Zombie Scrum">
+				</section>
+
+				<section data-background="/img/scrum-process.jpg" data-background-size="1000px"></section>
+
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			
+			Reveal.initialize({
+				hash: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
